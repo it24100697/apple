@@ -44,11 +44,11 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
         onChange={handleChange}
         required
       />
-      <label>Model Number</label>
+      <label>Disc Count</label>
       <input
         type="number"
-        name="model_number"
-        value={formData.model_number}
+        name="disc count"
+        value={formData.discCount}
         onChange={handleChange}
         required
       />

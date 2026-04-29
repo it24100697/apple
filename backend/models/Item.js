@@ -17,10 +17,10 @@ const itemSchema = new mongoose.Schema(
       required: [true, "Price is required"],
       min: [0, "Price cannot be negative"],
     },
-     model_number: {
+     discCount: {
       type: Number,
-      required: [true, "model number  is required"],
-      min: [0, "model number cannot be negative"],
+      required: [true, "disc count is required"],
+      min: [0, "disc count cannot be negative"],
     },
     description: {
       type: String,
